@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <section class="hero-unit">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <h1>BARKLI GALLERY</h1>
+          <p>Клубный дом с коллекцией из 46 квартир в минуте от Третьяковской галереи</p>
+        </div>
+        <div class="col-sm-3">
+          <h2>Бронь показа</h2>
+          <div id="react-daypicker"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="properties-list">
+    <div class="container">
+      <div id="react-properties-list"></div>
+    </div>
+  </section>
+
+  <script>
+    window.properties = [
+      {
+        id: 1,
+        price: 40000000
+      }]
+  </script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

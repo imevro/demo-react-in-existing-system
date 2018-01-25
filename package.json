@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "parcel-bundler": "1.5.0",
+    "react": "16.2.0",
+    "react-day-picker": "7.0.7",
+    "react-dom": "16.2.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.js --public-url https://moscow.expert"
+  }
+}
